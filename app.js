@@ -1,10 +1,5 @@
-//Chamada da função FileSystem
-const fs = require('fs')
+const getNotes = require('./notes.js')
 
-//Chamada do método da função FileSystem, escreverá o texto abaixo "My name is Matheus"
-//no arquivo "notes.txt".
-fs.writeFileSync('notes.txt', 'My name is Matheus.')
+const msg = getNotes()
 
-//Chamada do método da função FileSystem, diferente do que está descrito acima,
-//esse método acrescentará texto no arquivo "notes.txt".
-fs.appendFileSync('notes.txt', 'Curitiba')
+console.log(msg)
