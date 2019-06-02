@@ -1,8 +1,11 @@
 # notes-app
 Developed with Javascript/NodeJS/NPM.
 
-How to use?
 
+
+To run locally:
+
+```sh
 Follow the steps below:
 
 //npm install
@@ -18,6 +21,6 @@ Follow the steps below:
 
 #Reading a Note:
 // node app.js read --title="title name"
-
+```
 
 Have Fun! :alien: :smiley: :space_invader:
